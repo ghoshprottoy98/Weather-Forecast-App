@@ -41,4 +41,83 @@ body{
     color: white;
 }
 
+input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+#search-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 100%;
+    background: none;
+    border-radius: 18px;
+    color: white;
+}
+
+.current{
+    display: flex;
+    justify-content: space-between;
+}
+.current .left{
+    margin: 50px;
+}
+.current .left .time{
+    font-size: 55px;
+}
+.left .date-section{
+    display: flex;
+    padding: 0px 10px;
+}
+.left .date-section .date{
+    padding-left: 5px;
+}
+.current .right{
+    margin: 50px;
+    position: relative;
+}
+.right .time-zone{
+    font-size: 25px;
+}
+.right .city{
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+.title{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.today-section{
+    margin-top: 35px;
+}
+.today{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.today .img-des{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.today .img-des img{
+    height: 130px;
+}
+.today .img-des .des{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.day-night-temp{
+    display: flex;
+    flex-direction: column;
+    margin: auto 50px;
+    padding-left: 30px;
+    padding-right: 60px;
+    box-shadow: 1px 0px gray;
+}
+
 
